@@ -20,7 +20,7 @@ body{
 }
 
 main{
-    background-color: rgba(27, 22, 15, 0.459);
+    background-color: rgba(27, 22, 15, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,16 +29,34 @@ main{
 }
 h1{
     color: #ffffff;
-    font-size: 85px;
-
+    font-size: clamp(40px, 10vw, 120px);
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 p{
     color:oldlace;
-    font-size: 30px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 button{
-    background-color: rgb(214, 207, 216);
-    color: rgb(14, 6, 6);
+    background-color: rgb(204, 138, 223);
+    color: rgb(0, 0, 0);
     font-size: 20px;
+}
+.apresentacao{   
+    color:oldlace;
+    font-size: clamp(20px, 5vw, 60px);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style:italic;
+}
+#informacoes{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(197, 179, 143);
+    border-style: none;
+    border-radius: 10px;
 }
