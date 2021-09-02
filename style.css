@@ -54,8 +54,8 @@ button{
     font-style:italic;
 }
 #informacoes{
-    width: 90px;
-    height: 90px;
+    width: 120px;
+    height: 60px;
     background-color: rgb(197, 179, 143);
     border-style: none;
     border-radius: 10px;
