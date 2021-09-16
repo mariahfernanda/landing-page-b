@@ -7,7 +7,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-image: url(background.png) ;
+    background-image: url(texturapreta.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -21,7 +21,7 @@ body{
 
 main{
     background-color: rgba(27, 22, 15, 0);
-    display: flex;
+    display: row;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -30,33 +30,64 @@ main{
 h1{
     color: #ffffff;
     font-size: clamp(40px, 10vw, 120px);
-    font-weight: 400;
+    font-weight: 100;
     font-style: italic;
     font-family: 'Montserrat', sans-serif;
     
 }
 p{
     color:oldlace;
-    font-size: 20px;
+    font-size: clamp(40px, 10vw, 120px);
+    font-size: 15;
     font-family: 'Montserrat', sans-serif;
 }
 
 button{
     background-color: rgb(204, 138, 223);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 20px;
+    display: table-row;
+}
+button{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    display: table-row;
+}
+button{ 
+    background-color: rgb(204, 138, 223);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    display: table-row;
 }
 .apresentacao{   
     color:oldlace;
     font-size: clamp(20px, 5vw, 60px);
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 20;
     font-style:italic;
 }
 #informacoes{
     width: 120px;
     height: 65px;
-    background-color: rgb(197, 179, 143);
+    background-color: rgb(114, 105, 238);
     border-style: none;
     border-radius: 10px;
+    display: table-row;
+}
+
+#git {
+    width: 120px;
+    height: 65px;
+    background-color: rgb(0, 0, 0);
+    border-style: none;
+    border-radius: 10px;
+    display: table-row;
+}
+#insta {
+    width: 120px;
+    height: 65px;
+    background-color: rgb(211, 77, 211);
+    border-style: none;
+    border-radius: 10px;
+    display: table-row;
 }

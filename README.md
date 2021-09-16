@@ -14,4 +14,4 @@ o site pde ser acessado pelo link:
 *VSCODE
 
 ## Screendshot
-![](site.PNG)
+![](site.png)
